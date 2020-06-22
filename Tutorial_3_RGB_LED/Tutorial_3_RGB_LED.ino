@@ -1,5 +1,5 @@
 /*
- * DSTIKE ESP32 Watch(WROOM-32)
+ * DSTIKE ESP32 Watch(DEV-32)
  * Copyright 2020 a5768549
  *
  * Tutorial 3 RGB_LED
