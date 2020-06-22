@@ -1,15 +1,16 @@
-#include <Tone32.h>
-
 /*
  * DSTIKE ESP32 Watch(WROOM-32)
  * Copyright 2020 a5768549
  *
  * Tutorial 4 Buzzer_and_button
  * 
- * ESP Tone Lib：https://github.com/lbernstone/Tone
+ * ESP32 Tone Lib：https://github.com/lbernstone/Tone
  * 
  * GitHub Project：https://github.com/a5768549/DSTIKE-ESP32-Watch-Tutorial
  */
+
+//ESP32 is no built-in tone lib
+#include <Tone32.h>
 
 #define Buzzer 32
 //Navigation Button
