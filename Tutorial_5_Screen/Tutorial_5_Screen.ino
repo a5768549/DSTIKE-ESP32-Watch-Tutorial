@@ -8,7 +8,7 @@
  */
 
 #include <Adafruit_GFX.h>
-#include <Arduino_ST7789.h> // Hardware-specific library for ST7789
+#include <Arduino_ST7789.h> 
 #include <SPI.h>
 
 #define TFT_DC    22
