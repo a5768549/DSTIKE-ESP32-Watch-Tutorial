@@ -8,6 +8,10 @@
  * DHT11的精度較差，需要準度較高，請購買DHT22
  * 
  * GitHub Project：https://github.com/a5768549/DSTIKE-ESP32-Watch-Tutorial
+ * 
+ * DSKIKE Watch 腳位
+ * *3.3V *25 SVP 16 RX
+ * *GND   26 SVN 17 TX
  */
 #include "DHT.h"
 
