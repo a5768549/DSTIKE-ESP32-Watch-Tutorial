@@ -22,6 +22,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 const char* ssid     = "********";
 const char* password = "********";
+//thingspeak api
 String url = "https://api.thingspeak.com/update?api_key=3I8OW15J65GS1H7P";
 
 void setup() 

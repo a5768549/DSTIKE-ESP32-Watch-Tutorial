@@ -28,29 +28,18 @@
  *    D1       4
  */
 
-#include <Adafruit_GFX.h>
-#include <Arduino_ST7789.h> 
-#include <SPI.h>
+#include <WiFi.h>
+#include "time.h"
 #include "DHT.h"
 #include "time.h"
 #include "FS.h"
 #include "SD_MMC.h"
 #include "SD_Control.h"
 
-#define TFT_DC    22
-#define TFT_RST   23
-#define TFT_MOSI  17
-#define TFT_SCLK  16
-
 #define DHTPIN 25
 #define DHTTYPE DHT11   // DHT 11
 
-Arduino_ST7789 TFT_Screen = Arduino_ST7789(TFT_DC, TFT_RST, TFT_MOSI, TFT_SCLK);
-
 DHT dht(DHTPIN, DHTTYPE);
-
-#include <WiFi.h>
-#include "time.h"
 
 const char* ssid     = "*********";
 const char* password = "*********";
